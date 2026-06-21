@@ -1,0 +1,101 @@
+.skills-section {
+  @apply py-24 relative;
+  background: var(--bg-base);
+}
+
+.skills-container {
+  @apply w-full max-w-[1200px] mx-auto px-6 lg:px-8;
+}
+
+.skills-header {
+  @apply text-center mb-12;
+}
+
+.skills-title {
+  @apply font-extrabold mt-4 mb-3;
+  font-size: clamp(1.875rem, 4vw, 2.25rem);
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.skills-subtitle {
+  @apply text-text-secondary max-w-[540px] mx-auto;
+}
+
+.skills-grid {
+  @apply grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-5;
+}
+
+.skill-card {
+  @apply bg-bg-card p-6;
+}
+
+.card-header {
+  @apply flex items-center gap-3 mb-5;
+}
+
+.icon-wrapper {
+  @apply flex items-center justify-center w-11 h-11 rounded-xl flex-shrink-0 text-lg text-primary-light;
+  background: rgba(99, 102, 241, 0.12);
+}
+
+.skill-category-title {
+  @apply text-lg font-semibold text-text-primary;
+}
+
+.badge-container {
+  @apply flex flex-wrap gap-2;
+}
+
+.analytical-section {
+  @apply mt-24 sm:mt-32 p-6 sm:p-12 rounded-3xl;
+  border: 1px solid var(--border-color);
+  background: radial-gradient(circle at top right, rgba(99, 102, 241, 0.03), transparent);
+}
+
+.skills-subheader {
+  @apply text-center mb-10;
+}
+
+.skills-subtitle-large {
+  @apply font-bold mb-3 text-text-primary;
+  font-size: clamp(1.5rem, 3.5vw, 1.875rem);
+}
+
+.skills-subtitle-desc {
+  @apply text-text-secondary max-w-[540px] mx-auto;
+}
+
+.analytical-grid {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8;
+}
+
+.analytical-card {
+  @apply bg-bg-card p-6 sm:p-8 flex flex-col sm:flex-row gap-5 items-center sm:items-start text-center sm:text-left rounded-2xl transition-all duration-300;
+  border: 1px solid var(--border-color);
+  
+  &:hover {
+    border-color: rgba(99, 102, 241, 0.4);
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px -10px rgba(99, 102, 241, 0.15);
+  }
+}
+
+.analytical-icon-wrapper {
+  @apply flex items-center justify-center w-12 h-12 rounded-xl flex-shrink-0 text-xl text-primary-light;
+  background: rgba(99, 102, 241, 0.12);
+}
+
+.analytical-info {
+  @apply flex flex-col gap-1.5;
+}
+
+.analytical-skill-title {
+  @apply text-base font-semibold text-text-primary leading-snug;
+}
+
+.analytical-skill-desc {
+  @apply text-sm text-text-secondary leading-relaxed;
+}

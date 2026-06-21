@@ -1,0 +1,95 @@
+<section class="hero-section">
+  <!-- Tech Grid Background Pattern -->
+  <div class="tech-grid-bg"></div>
+
+  <!-- Ambient glowing orbs -->
+  <div class="glow-orb glow-orb-1"></div>
+  <div class="glow-orb glow-orb-2"></div>
+  <div class="glow-orb glow-orb-3"></div>
+
+  <div class="hero-container">
+    <!-- Content -->
+    <div class="hero-content">
+      <div class="hero-header-group">
+        <h2 class="hero-greeting">{{ t.t("hero.greeting") }}</h2>
+
+        <h1 class="hero-name">{{ t.t("hero.name") }}</h1>
+      </div>
+
+      <!-- Static role display replacing the typewriter -->
+      <div class="hero-role-container">
+        <span class="hero-role-prefix">I am a</span>
+        <span class="hero-role-text">{{ t.t("hero.role") }}</span>
+      </div>
+
+      <!-- Tagline with sub-bullet points -->
+      <div class="hero-tagline-container">
+        <p class="hero-tagline-title">{{ t.t("hero.tagline_prefix") }}</p>
+        <ul class="hero-tagline-bullets">
+          <li>
+            <span class="bullet-dot bullet-dot-1"></span>
+            <span class="bullet-text">{{ t.t("hero.tagline_web") }}</span>
+          </li>
+          <li>
+            <span class="bullet-dot bullet-dot-2"></span>
+            <span class="bullet-text">{{ t.t("hero.tagline_mobile") }}</span>
+          </li>
+          <li>
+            <span class="bullet-dot bullet-dot-3"></span>
+            <span class="bullet-text">{{ t.t("hero.tagline_cloud") }}</span>
+          </li>
+        </ul>
+        <p class="hero-location-text">
+          <i class="fa-solid fa-location-dot location-icon"></i>
+          <span>{{ t.t("hero.location") }}</span>
+        </p>
+      </div>
+    </div>
+
+    <!-- Hero Graphic (hidden on mobile) -->
+    <div class="hero-graphic">
+      <!-- Sky Background with Gradient & Stars -->
+      <div class="sky-container">
+        <!-- Ambient glowing stars / particles -->
+        <div class="star star-1"></div>
+        <div class="star star-2"></div>
+        <div class="star star-3"></div>
+        
+        <!-- Glowing Sun/Moon Orb -->
+        <div class="celestial-orb"></div>
+        
+        <!-- Floating Tech Stack Badges (No circular motion, constant hover/float effect) -->
+        <div class="sky-tech-nodes">
+          <!-- Tech Node 1: Oracle Database -->
+          <div class="tech-node node-db float-stagger-1">
+            <i class="fa-solid fa-database" title="Oracle & MySQL"></i>
+          </div>
+          
+          <!-- Tech Node 2: Red Hat / Oracle Linux -->
+          <div class="tech-node node-linux float-stagger-2">
+            <i class="fa-brands fa-linux" title="Linux (Red Hat / Oracle)"></i>
+          </div>
+          
+          <!-- Tech Node 3: Jira -->
+          <div class="tech-node node-jira float-stagger-3">
+            <i class="fa-brands fa-jira" title="Jira"></i>
+          </div>
+          
+          <!-- Tech Node 4: Python -->
+          <div class="tech-node node-python float-stagger-4">
+            <i class="fa-brands fa-python" title="Python (Machine Learning)"></i>
+          </div>
+        </div>
+
+        <!-- Layered Mountain Silhouettes -->
+        <div class="mountains-container">
+          <svg viewBox="0 0 400 300" class="mountains-svg" xmlns="http://www.w3.org/2000/svg">
+            <path d="M 0,220 L 80,140 L 160,200 L 240,110 L 320,210 L 400,150 L 400,300 L 0,300 Z" class="mountain-back" />
+            <path d="M 0,240 L 110,170 L 210,230 L 290,160 L 400,225 L 400,300 L 0,300 Z" class="mountain-middle" />
+            <path d="M 0,260 L 140,200 L 260,250 L 400,195 L 400,300 L 0,300 Z" class="mountain-front" />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
