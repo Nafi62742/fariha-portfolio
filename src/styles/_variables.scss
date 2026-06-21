@@ -1,0 +1,98 @@
+// ─── Color Palette ───────────────────────────────────────────────────────────
+$bg-base:           #06040f;
+$bg-surface:        #0d0919;
+$bg-card:           #130d26;
+$bg-card-hover:     #1a1133;
+
+$primary:           #2563eb;
+$primary-light:     #60a5fa;
+$primary-dark:      #1d4ed8;
+$accent:            #38bdf8;     // sky blue
+$accent-light:      #7dd3fc;
+$accent-dark:       #0284c7;
+
+$gradient-primary:  linear-gradient(135deg, $primary 0%, $accent 100%);
+$gradient-hero:     linear-gradient(135deg, #0c1f4a 0%, #050b18 50%, #071530 100%);
+$gradient-glow:     radial-gradient(ellipse at center, rgba($primary, 0.2) 0%, rgba($accent, 0.1) 60%, transparent 80%);
+
+$text-primary:      #ffffff;
+$text-secondary:    #bfdbfe;   // blue-200
+$text-muted:        #93c5fd;   // blue-300
+$text-accent:       $accent-light;
+
+$border:            rgba(255, 255, 255, 0.08);
+$border-hover:      rgba($primary, 0.5);
+$glass-bg:          rgba(10, 18, 37, 0.78);
+$glass-bg-light:    rgba(14, 26, 53, 0.65);
+
+$success:           #10b981;
+$warning:           #f59e0b;
+$error:             #ef4444;
+
+// ─── Typography ──────────────────────────────────────────────────────────────
+$font-sans:         'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+$font-mono:         'Fira Code', 'Cascadia Code', monospace;
+
+$text-xs:    0.75rem;
+$text-sm:    0.875rem;
+$text-base:  1rem;
+$text-lg:    1.125rem;
+$text-xl:    1.25rem;
+$text-2xl:   1.5rem;
+$text-3xl:   1.875rem;
+$text-4xl:   2.25rem;
+$text-5xl:   3rem;
+$text-6xl:   3.75rem;
+$text-7xl:   4.5rem;
+
+$font-light:       300;
+$font-regular:     400;
+$font-medium:      500;
+$font-semibold:    600;
+$font-bold:        700;
+$font-extrabold:   800;
+$font-black:       900;
+
+// ─── Spacing ─────────────────────────────────────────────────────────────────
+$space-1:   0.25rem;
+$space-2:   0.5rem;
+$space-3:   0.75rem;
+$space-4:   1rem;
+$space-5:   1.25rem;
+$space-6:   1.5rem;
+$space-8:   2rem;
+$space-10:  2.5rem;
+$space-12:  3rem;
+$space-16:  4rem;
+$space-20:  5rem;
+$space-24:  6rem;
+$space-32:  8rem;
+
+// ─── Breakpoints ─────────────────────────────────────────────────────────────
+$bp-sm:   640px;
+$bp-md:   768px;
+$bp-lg:   1024px;
+$bp-xl:   1280px;
+$bp-2xl:  1536px;
+
+// ─── Layout ──────────────────────────────────────────────────────────────────
+$container-max:   1200px;
+$navbar-height:   72px;
+$section-py:      $space-24;
+
+// ─── Effects ─────────────────────────────────────────────────────────────────
+$radius-sm:   6px;
+$radius-md:   12px;
+$radius-lg:   20px;
+$radius-xl:   28px;
+$radius-full: 9999px;
+
+$shadow-sm:   0 1px 3px rgba(0,0,0,0.4), 0 1px 2px rgba(0,0,0,0.3);
+$shadow-md:   0 4px 16px rgba(0,0,0,0.4), 0 2px 6px rgba(0,0,0,0.2);
+$shadow-lg:   0 10px 40px rgba(0,0,0,0.5), 0 4px 12px rgba(0,0,0,0.3);
+$shadow-glow: 0 0 40px rgba($primary, 0.3), 0 0 80px rgba($accent, 0.15);
+$shadow-card-hover: 0 20px 60px rgba(0,0,0,0.5), 0 0 30px rgba($accent, 0.18);
+
+$transition-fast:   150ms ease;
+$transition-base:   250ms ease;
+$transition-slow:   400ms cubic-bezier(0.4, 0, 0.2, 1);
