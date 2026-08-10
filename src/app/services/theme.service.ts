@@ -40,8 +40,7 @@ export class ThemeService {
    */
   public init(): void {
     const saved: Theme | null = localStorage.getItem('portfolio-theme') as Theme | null;
-    const preferred: Theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-    const theme: Theme = saved ?? preferred;
+    const theme: Theme = saved ?? 'dark';
     this._theme.set(theme);
     document.documentElement.setAttribute('data-theme', theme);
   }

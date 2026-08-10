@@ -102,102 +102,102 @@
 }
 
 [data-theme="light"] {
-  /* White / Pink / Red — light palette */
+  /* White / Lavender / Violet — light palette */
   --bg-base:        #ffffff;
-  --bg-surface:     #fff0f3;
+  --bg-surface:     #f5f3ff;
   --bg-card:        #ffffff;
-  --bg-card-hover:  #fff5f6;
-  --text-primary:   #1f000b;
-  --text-secondary: #dc2626;
-  --text-muted:     #fb7185;
-  --border-color:   rgba(220, 38, 38, 0.15);
-  --glass-bg:       rgba(255, 240, 243, 0.88);
-  --glass-border:   rgba(220, 38, 38, 0.15);
+  --bg-card-hover:  #f8f7ff;
+  --text-primary:   #0f172a;
+  --text-secondary: #334155;
+  --text-muted:     #64748b;
+  --border-color:   rgba(109, 40, 217, 0.15);
+  --glass-bg:       rgba(245, 243, 255, 0.88);
+  --glass-border:   rgba(109, 40, 217, 0.15);
   --navbar-bg:      rgba(255, 255, 255, 0.93);
-  --navbar-shadow:  0 1px 0 rgba(220, 38, 38, 0.06), 0 4px 24px rgba(220, 38, 38, 0.1);
+  --navbar-shadow:  0 1px 0 rgba(109, 40, 217, 0.06), 0 4px 24px rgba(109, 40, 217, 0.1);
   --mobile-menu-bg: rgba(255, 255, 255, 0.97);
   --input-bg:       #ffffff;
-  --highlight-bg:   rgba(220, 38, 38, 0.06);
+  --highlight-bg:   rgba(109, 40, 217, 0.06);
   --noise-opacity:  0.012;
 
-  /* Hero - bold pink-to-red gradient */
-  --hero-bg:              linear-gradient(135deg, #ffffff 0%, #fff0f3 60%, #ffe4e6 100%);
-  --hero-text:            #1f000b;
-  --hero-text-secondary:  #be185d;
-  --hero-text-muted:      #dc2626;
-  --hero-accent:          #dc2626;
-  --hero-gradient:        linear-gradient(135deg, #be185d 0%, #dc2626 100%);
-  --hero-orbit-border:    rgba(220, 38, 38, 0.15);
+  /* Hero - bold lavender-to-violet gradient */
+  --hero-bg:              linear-gradient(135deg, #ffffff 0%, #f5f3ff 60%, #ede9fe 100%);
+  --hero-text:            #0f172a;
+  --hero-text-secondary:  #334155;
+  --hero-text-muted:      #64748b;
+  --hero-accent:          #7c3aed;
+  --hero-gradient:        linear-gradient(135deg, #7c3aed 0%, #5b21b6 100%);
+  --hero-orbit-border:    rgba(109, 40, 217, 0.15);
   --hero-orbit-dot-bg:    #ffffff;
   --hero-social-bg:       #ffffff;
-  --hero-social-border:   rgba(220, 38, 38, 0.15);
-  --hero-scroll-line:     linear-gradient(to bottom, #dc2626, transparent);
-  --hero-scroll-track-bg: rgba(220, 38, 38, 0.1);
-  --hero-role-from:       #be185d;
-  --hero-role-to:         #dc2626;
-  --hero-badge-bg:        rgba(220, 38, 38, 0.08);
-  --hero-badge-border:    rgba(220, 38, 38, 0.2);
-  --hero-badge-text:      #be185d;
-  --hero-badge-dot:       #dc2626;
+  --hero-social-border:   rgba(109, 40, 217, 0.15);
+  --hero-scroll-line:     linear-gradient(to bottom, #6d28d9, transparent);
+  --hero-scroll-track-bg: rgba(109, 40, 217, 0.1);
+  --hero-role-from:       #7c3aed;
+  --hero-role-to:         #5b21b6;
+  --hero-badge-bg:        rgba(109, 40, 217, 0.08);
+  --hero-badge-border:    rgba(109, 40, 217, 0.2);
+  --hero-badge-text:      #5b21b6;
+  --hero-badge-dot:       #6d28d9;
 
   /* Ambient Orbs */
-  --orb-color-1:    rgba(220, 38, 38, 0.08);
-  --orb-color-2:    rgba(236, 72, 153, 0.07);
-  --orb-color-3:    rgba(219, 39, 119, 0.06);
+  --orb-color-1:    rgba(109, 40, 217, 0.08);
+  --orb-color-2:    rgba(167, 139, 250, 0.07);
+  --orb-color-3:    rgba(139, 92, 246, 0.06);
 
   /* Avatar Bubble */
-  --avatar-bg:      linear-gradient(135deg, #ec4899, #dc2626);
-  --avatar-border:  rgba(26, 10, 46, 0.2);
-  --avatar-glow:    0 10px 30px rgba(220, 38, 38, 0.25);
+  --avatar-bg:      linear-gradient(135deg, #8b5cf6, #6d28d9);
+  --avatar-border:  rgba(30, 27, 75, 0.2);
+  --avatar-glow:    0 10px 30px rgba(109, 40, 217, 0.25);
   --avatar-text-bg: none;
   --avatar-text-clip: border-box;
   --avatar-text-fill: #ffffff;
   --avatar-text-color: #ffffff;
 
   /* Global Brand Tokens */
-  --gradient-primary: linear-gradient(135deg, #ec4899 0%, #dc2626 100%);
-  --link-hover-color: #be185d;
+  --gradient-primary: linear-gradient(135deg, #8b5cf6 0%, #6d28d9 100%);
+  --link-hover-color: #5b21b6;
   
   /* Badges & Tags */
-  --tech-badge-bg:           rgba(236, 72, 153, 0.1);
-  --tech-badge-text:         #be185d;
-  --tech-badge-border:       rgba(236, 72, 153, 0.25);
-  --tech-badge-bg-hover:     rgba(236, 72, 153, 0.18);
-  --tech-badge-border-hover: rgba(236, 72, 153, 0.45);
+  --tech-badge-bg:           rgba(139, 92, 246, 0.1);
+  --tech-badge-text:         #5b21b6;
+  --tech-badge-border:       rgba(139, 92, 246, 0.25);
+  --tech-badge-bg-hover:     rgba(139, 92, 246, 0.18);
+  --tech-badge-border-hover: rgba(139, 92, 246, 0.45);
 
-  --tag-primary-bg:     rgba(220, 38, 38, 0.1);
-  --tag-primary-border: rgba(220, 38, 38, 0.25);
-  --tag-primary-text:   #dc2626;
+  --tag-primary-bg:     rgba(109, 40, 217, 0.1);
+  --tag-primary-border: rgba(109, 40, 217, 0.25);
+  --tag-primary-text:   #6d28d9;
 
-  --tag-accent-bg:      rgba(236, 72, 153, 0.08);
-  --tag-accent-border:  rgba(236, 72, 153, 0.2);
-  --tag-accent-text:    #be185d;
+  --tag-accent-bg:      rgba(139, 92, 246, 0.08);
+  --tag-accent-border:  rgba(139, 92, 246, 0.2);
+  --tag-accent-text:    #5b21b6;
 
   /* Buttons & Cards Shadows & Outlines */
-  --btn-primary-shadow:        0 4px 20px rgba(220,38,38,0.3), 0 4px 20px rgba(236,72,153,0.2);
-  --btn-primary-shadow-hover:  0 8px 30px rgba(220,38,38,0.4), 0 8px 30px rgba(236,72,153,0.3);
+  --btn-primary-shadow:        0 4px 20px rgba(109,40,217,0.3), 0 4px 20px rgba(139,92,246,0.2);
+  --btn-primary-shadow-hover:  0 8px 30px rgba(109,40,217,0.4), 0 8px 30px rgba(139,92,246,0.3);
 
-  --btn-outline-border:        rgba(236, 72, 153, 0.4);
-  --btn-outline-hover-bg:      rgba(236, 72, 153, 0.08);
-  --btn-outline-hover-border:  #ec4899;
+  --btn-outline-border:        rgba(139, 92, 246, 0.4);
+  --btn-outline-hover-bg:      rgba(139, 92, 246, 0.08);
+  --btn-outline-hover-border:  #8b5cf6;
 
-  --btn-ghost-hover-text:      #1f000b;
-  --btn-ghost-hover-border:    rgba(190, 24, 93, 0.4);
+  --btn-ghost-hover-text:      #1e1b4b;
+  --btn-ghost-hover-border:    rgba(91, 33, 182, 0.4);
 
-  --glass-card-hover-border:   rgba(236, 72, 153, 0.38);
-  --glass-card-hover-shadow:   0 20px 60px rgba(26, 10, 46, 0.12), 0 0 30px rgba(220, 38, 38, 0.15);
+  --glass-card-hover-border:   rgba(139, 92, 246, 0.38);
+  --glass-card-hover-shadow:   0 20px 60px rgba(30, 27, 75, 0.12), 0 0 30px rgba(109, 40, 217, 0.15);
 
   /* Scrollbar & Focus & Selection */
-  --scrollbar-thumb:           rgba(236, 72, 153, 0.35);
-  --scrollbar-thumb-hover:     #ec4899;
-  --selection-bg:              rgba(236, 72, 153, 0.35);
-  --focus-outline:             #ec4899;
+  --scrollbar-thumb:           rgba(139, 92, 246, 0.35);
+  --scrollbar-thumb-hover:     #8b5cf6;
+  --selection-bg:              rgba(139, 92, 246, 0.35);
+  --focus-outline:             #8b5cf6;
 
   /* Status Badge */
-  --badge-bg:                  rgba(236, 72, 153, 0.08);
-  --badge-border:              rgba(236, 72, 153, 0.25);
-  --badge-text:                #be185d;
-  --badge-dot:                 #ec4899;
+  --badge-bg:                  rgba(139, 92, 246, 0.08);
+  --badge-border:              rgba(139, 92, 246, 0.25);
+  --badge-text:                #5b21b6;
+  --badge-dot:                 #8b5cf6;
 }
 
 @layer base {
