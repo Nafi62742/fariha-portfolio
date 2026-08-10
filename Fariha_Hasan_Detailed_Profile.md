@@ -7,7 +7,7 @@
 
 ## Executive Summary
 
-A detail-oriented Junior Engineer in the Post-Sales team with **1.5+ years of experience** in Oracle database operations, supporting enterprise clients through implementation, troubleshooting, root cause analysis, system validation, and database migration. Recently led coordination for a **Kafka implementation project** for Grameenphone, working closely with international implementation partners and client stakeholders to ensure smooth, on-schedule delivery.
+A detail-oriented Junior Engineer in the Post-Sales team with **2 years of experience** in Oracle database operations, supporting enterprise clients through implementation, troubleshooting, root cause analysis, system validation, and database migration. Recently led coordination for a **Kafka implementation project** for Grameenphone, working closely with international implementation partners and client stakeholders to ensure smooth, on-schedule delivery.
 
 ---
 

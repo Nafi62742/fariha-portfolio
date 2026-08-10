@@ -136,7 +136,7 @@ export const EN: TranslationSchema = {
   about: {
     section_label: 'About Me',
     title:         'Junior Engineer & Oracle Database Specialist',
-    bio_1:         'I\'m a detail-oriented Junior Engineer with 1.5+ years of experience in Oracle database operations, supporting enterprise clients through implementation, troubleshooting, root cause analysis, and migrations.',
+    bio_1:         'I\'m a detail-oriented Junior Engineer with 2 years of experience in Oracle database operations, supporting enterprise clients through implementation, troubleshooting, root cause analysis, and migrations.',
     bio_2:         'I have hands-on experience administering Oracle Database (11g, 12c, 19c) and MySQL, implementing high-availability setups with Oracle Data Guard and Oracle RAC, and managing database backups and recovery.',
     bio_3:         'Recently, I led stakeholder and international partner coordination for a major Kafka implementation project at Grameenphone. I also hold a B.Sc. in Computer Science and Engineering from AUST, with research publications in Deep Learning.',
     stat_exp:      'Years Experience',

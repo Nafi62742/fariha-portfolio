@@ -24,7 +24,7 @@ interface StatCard {
 export class AboutComponent {
   /** Stat cards shown beneath the bio text. */
   public readonly stats: Array<StatCard> = [
-    { value: "1.5+", key: "about.stat_exp", icon: "fa-briefcase" },
+    { value: "2", key: "about.stat_exp", icon: "fa-briefcase" },
     { value: "2+", key: "about.stat_databases", icon: "fa-database" },
     { value: "3+", key: "about.stat_projects", icon: "fa-folder-open" },
     { value: "8+", key: "about.stat_devops", icon: "fa-screwdriver-wrench" },
