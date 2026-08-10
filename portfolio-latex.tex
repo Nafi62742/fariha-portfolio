@@ -1,0 +1,218 @@
+\documentclass[a4paper,8pt]{article}
+
+\usepackage{parskip}
+\usepackage{hologo}
+\usepackage{fontspec}
+
+%other packages for formatting
+\RequirePackage{color}
+\RequirePackage{graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[scale=0.9, top=.4in, bottom=.4in]{geometry}
+
+%tabularx environment
+\usepackage{tabularx}
+
+%for lists within experience section
+\usepackage{enumitem}
+
+% centered version of 'X' col. type
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+
+%to prevent spillover of tabular into next pages
+\usepackage{supertabular}
+\usepackage{tabularx}
+\newlength{\fullcollw}
+\setlength{\fullcollw}{0.42\textwidth}
+
+%custom \section
+\usepackage{titlesec}
+\usepackage{multicol}
+\usepackage{multirow}
+
+%CV Sections inspired by:
+%http://stefano.italians.nl/archives/26
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{1pt}{2pt}{2pt}
+
+%for publications
+\usepackage[style=authoryear,sorting=ynt, maxbibnames=2]{biblatex}
+
+%Setup hyperref package, and colours for links
+\usepackage[unicode, draft=false]{hyperref}
+\color[HTML]{110223}%{1C033C}
+\addbibresource{citations.bib}
+\setlength\bibitemsep{1em}
+
+%for social icons
+\usepackage{fontawesome5}
+% \usepackage{times}
+
+% For underline
+\usepackage[normalem]{ulem}
+
+\setmainfont{Arial} % Set it to whatever you like
+
+\begin{document}
+
+% non-numbered pages
+\pagestyle{empty}
+
+\begin{tabularx}{\linewidth}{@{} C @{}}
+\color[HTML]{1C033C} \Huge{Fariha Hassan} \\[6pt]
+\\
+\textcolor[HTML]{371e77}{{{{\faEnvelope} farihahassan41@gmail.com}} $|$}
+\textcolor[HTML]{371e77}{{{\faMobile} +8801715891422}}
+
+\textcolor[HTML]{371e77}{\underline{{\raisebox{-0.05\height}{\faGithub} https://github.com/Farihahasann}} $|$}
+\textcolor[HTML]{371e77}{\underline{{\raisebox{-0.05\height}{\faLinkedin} https://linkedin.com/in/fariha-hassan-b0382626a/}} $|$}
+\textcolor[HTML]{371e77}{\underline{{\raisebox{-0.05\height}{\faGlobe} https://fariha-hasan.vercel.app}}}
+
+
+\end{tabularx}
+
+\section{Summary}
+\color[HTML]{1C033C} Junior Engineer at ESL with 2 years of hands-on experience in post-sales team, supporting client implementations, 
+workflow coordination, migration and issue resolution in Oracle-based systems. Experienced in Agile workflows and 
+effective at bridging communication between clients, engineers, and implementation partners to clarify requirements and 
+keep projects on track. 
+
+
+\section{Work Experience}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\color[HTML]{371e77}\textbf{\textit{Junior Engineer, Post-Sales}} \hfill \color[HTML]{371e77} Aug 2024 - Present \\[4pt]
+\textbf{{Express Systems Limited, Bangladesh}} \hfill \\[5pt]
+\begin{minipage}[t]{\linewidth}
+\begin{itemize}[nosep,after=\strut, leftmargin=2em, itemsep=2pt]
+\item Installation and Configuration of Oracle Database 11g, 12c, 19c, Oracle Data Guard, RAC and OEM. 
+\item Perform logical database backup and restore using EXPDP/IMPDP and Rman. 
+\item Monitored database health and performance metrics and troubleshooting issues 
+system reliability and minimize service disruptions.
+\item Acted as the primary bridge between enterprise client leads and an international implementation partner to manage requirement alignment, environment setup, reporting and on-time deployment.
+\end{itemize}
+\end{minipage}
+\end{tabularx}
+
+\vspace{3pt}
+
+
+
+% Projects
+\section{Work Projects}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\begin{minipage}[t]{\linewidth}
+\begin{itemize}[nosep,after=\strut, leftmargin=0em, itemsep=4pt, label={}]
+
+\item \textbf{Kafka Implementations:}
+\begin{itemize}[nosep, leftmargin=1.5em, itemsep=2pt, label=\textbullet]
+\item Coordinated with clients and implementation partners, running workshops to align on requirements, scope, and objectives.
+\item Managed tasks, action plans, and schedules to keep the project on track.
+\item Tracked progress and worked with teams to resolve blockers quickly.
+\item Maintained clear documentation, including MOMs, action trackers, and status updates for transparency.
+\item Prepared systems and environments for project readiness, handling access and validations.
+\item Verified server setups and connectivity with implementation partners to ensure smooth operations.
+\item Supported implementation through file transfers, access management, and ongoing communication with stakeholders.
+\end{itemize}
+\textit{Technologies: Jira, Confluence, MS Excel (Action Trackers), MS Teams, Confluent Kafka, Red Hat Linux, SQL}
+
+\item \textbf{Oracle Data Guard, Jamuna Bank Limited:} \\
+Configuration of Oracle Data Guard, supporting database high availability, disaster recovery, standby synchronization, and failover readiness. 
+\item \textbf{Oracle Enterprise Manager Setup, IFIC Bank PLC:} \\
+OEM setup for centralized database monitoring, performance management, alert handling, target administration, and troubleshooting across the banking environment. 
+\item \textbf{Database Switchover, Rupali Bank:}\\
+Executed database switchover in Oracle Data Guard environment
+\item \textbf{Health Check, Supreme Court:}\\
+Performed health check on the database of Supreme Court
+
+\end{itemize}
+\end{minipage}
+\end{tabularx}\\[2pt]
+
+% Projects
+\section{Personal Projects}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\begin{minipage}[t]{\linewidth}
+\begin{itemize}[nosep,after=\strut, leftmargin=2em, itemsep=4pt]
+
+\item \textbf{Oracle Data Guard} \\
+Configuration of Oracle Data Guard, supporting database high availability, disaster recovery, standby synchronization, and failover readiness. 
+\item \textbf{Oracle Enterprise Manager Setup, IFIC Bank PLC:} \\
+OEM setup for centralized database monitoring, performance management, alert handling, target administration, and troubleshooting across the banking environment. 
+\item \textbf{Database Switchover, Rupali Bank:}\\
+Executed database switchover in Oracle Data Guard environment
+\item \textbf{Health Check, Supreme Court:}\\
+Performed health check on the database of Supreme Court
+
+\end{itemize}
+\end{minipage}
+\end{tabularx}
+
+
+% Projects
+\section{Skills}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\begin{minipage}[t]{\linewidth}
+\begin{itemize}[nosep,after=\strut, leftmargin=2em, itemsep=4pt]
+
+\item \textbf{Technical Skills:} Oracle (11g, 12c, 19c), MySQL, SQL (Joins, Aggregations, Data Extraction), Oracle Data Guard, Oracle RAC, EXPDP/IMPDP, RMAN, Oracle WebLogic, Oracle OEM, Red Hat Linux, Oracle Linux, Jira, Power BI.
+\item \textbf{Analytical \& Business Skills:} Requirement Analysis \& Workflow Design, Structured Documentation (MoM, Action Trackers, Process Flows), Process Improvement, Issue Resolution, Stakeholder Communication \& Coordination, Task Tracking \& SLA Management.
+\item \textbf{Conceptual Knowledge:} Agile \& Scrum Fundamentals, User Stories \& Acceptance Criteria, Cloud Architecture Concepts \& Cloud Basics (AWS, IaaS/PaaS/SaaS), SDLC and STLC.
+
+\end{itemize}
+\end{minipage}
+\end{tabularx}
+
+% Certifications
+\section{Certifications}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\begin{minipage}[t]{\linewidth}
+\begin{itemize}[nosep,after=\strut, leftmargin=2em, itemsep=4pt]
+
+\item \textbf{Oracle Data Guard} \\
+Configuration of Oracle Data Guard, supporting database high availability, disaster recovery, standby synchronization, and failover readiness. 
+\item \textbf{Oracle Enterprise Manager Setup, IFIC Bank PLC:} \\
+OEM setup for centralized database monitoring, performance management, alert handling, target administration, and troubleshooting across the banking environment. 
+
+\end{itemize}
+\end{minipage}
+\end{tabularx}\\[2pt]
+
+
+
+
+% Thesis & Publications
+\section{Thesis \& Publications}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\begin{minipage}[t]{\linewidth}
+\begin{itemize}[nosep, after=\strut, leftmargin=2em, itemsep=2pt]
+\item \textbf{Integration of Machine Learning Algorithms for Precision Crop Recommendations} — \textit{2024}.
+\item \textbf{Enhancing Construction Site Safety: A Deep Learning Approach for Detection and Monitoring of Safety 
+Equipment} — Published by \textit{ICCIT}, {2025}.
+\end{itemize}
+\end{minipage}
+\end{tabularx}
+
+\vspace{2pt} % ← clean gap between sections
+
+% Education
+\section{Education}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\color[HTML]{1C033C} \textbf{Ahsanullah University of Science and Technology, Dhaka} & \hfill \color[HTML]{371e77} 2019 - 2024 \\
+\color[HTML]{371e77} B.Sc. in Computer Science and Engineering & \hfill \color[HTML]{4B28A4} \textit{\textbf{CGPA: 3.26/4.00}} \\
+\multicolumn{2}{@{}X@{}}{Relevant Coursework: Data Structures and Algorithms, Object Oriented Programming, Database Systems, Operating Systems, Computer Networks, Software Engineering, Design Patterns, API Development, Advanced HTML/CSS}
+
+\end{tabularx}\\[2pt]
+
+% Leadership and Volunteering
+\section{Leadership and Involvement}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\begin{minipage}[t]{\linewidth}
+\begin{itemize}[nosep,after=\strut, leftmargin=2em, itemsep=2pt]
+\item \textbf{Program Organizer, AUST CSE Society (Jan 2022 – Jul 2022):} Organized departmental programs, workshops, and technical events for CSE students.
+\item \textbf{General Member, AUST Innovation and Design Club (Jan 2019 – May 2022):} Contributed to innovation challenges, design projects, and club activities.
+\end{itemize}
+\end{minipage}
+\end{tabularx}
+
+\end{document}

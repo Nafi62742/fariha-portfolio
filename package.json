@@ -1,0 +1,49 @@
+{
+  "name": "fariha-portfolio",
+  "version": "1.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng lint && ng serve --host 0.0.0.0 --disable-host-check",
+    "g:page": "node ./scripts/generate-page.js",
+    "g:shared-component": "node ./scripts/generate-shared-component.js",
+    "g:service": "node ./scripts/generate-service.js",
+    "test": "ng test",
+    "dev": "ng serve --open",
+    "build": "ng build",
+    "lint": "eslint \"src/**/*.ts\" --max-warnings=0"
+  },
+  "dependencies": {
+    "@angular/animations": "^17.3.0",
+    "@angular/common": "^17.3.0",
+    "@angular/compiler": "^17.3.0",
+    "@angular/core": "^17.3.0",
+    "@angular/forms": "^17.3.0",
+    "@angular/platform-browser": "^17.3.0",
+    "@angular/platform-browser-dynamic": "^17.3.0",
+    "@angular/router": "^17.3.0",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.6.0",
+    "zone.js": "~0.14.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^17.3.0",
+    "@angular-eslint/builder": "21.0.1",
+    "@angular-eslint/eslint-plugin": "21.0.1",
+    "@angular-eslint/eslint-plugin-template": "21.0.1",
+    "@angular-eslint/schematics": "21.0.1",
+    "@angular-eslint/template-parser": "21.0.1",
+    "@angular/cli": "^17.3.0",
+    "@angular/compiler-cli": "^17.3.0",
+    "@typescript-eslint/eslint-plugin": "7.11.0",
+    "@typescript-eslint/parser": "7.11.0",
+    "autoprefixer": "^10.5.0",
+    "eslint": "8.57.1",
+    "eslint-import-resolver-typescript": "^4.4.4",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-jsdoc": "^63.0.0",
+    "postcss": "^8.5.15",
+    "sass": "^1.71.0",
+    "tailwindcss": "^3.4.19",
+    "typescript": "~5.4.0"
+  }
+}
