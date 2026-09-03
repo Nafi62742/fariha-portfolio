@@ -32,49 +32,11 @@ export class PortfolioService {
         key: 'cat_backend', icon: 'fa-brain',
         skills: ['Agile & Scrum Fundamentals', 'User Stories & Acceptance Criteria', 'Cloud Basics (AWS)', 'SDLC & STLC']
       },
-      // cat_cloud is now displayed elaborately in its own subsection below
-      /*
-      {
-        key: 'cat_cloud', icon: 'fa-chart-pie',
-        skills: ['Requirement Analysis', 'Workflow Design', 'Structured Documentation (MoM)', 'Process Improvement', 'Task Tracking & SLA', 'Stakeholder Management']
-      },
-      */
       {
         key: 'cat_tools', icon: 'fa-screwdriver-wrench',
         skills: ['Jira', 'Power BI', 'Git', 'GitHub']
       }
     ];
-
-    /* ============================================================
-     * OLD SKILL CATEGORIES (Nafi Ahmed) — commented out
-     * ============================================================
-    return [
-      {
-        key: 'cat_mobile', icon: 'fa-mobile-screen',
-        skills: ['Flutter', 'Dart', 'Firebase', 'Android Dev', 'iOS Dev', 'FlutterFlow']
-      },
-      {
-        key: 'cat_frontend', icon: 'fa-layer-group',
-        skills: ['Angular', 'RxJS', 'TypeScript', 'SCSS/SASS', 'HTML5']
-      },
-      {
-        key: 'cat_backend', icon: 'fa-server',
-        skills: ['Laravel', 'PHP', 'Node.js', 'REST APIs', 'Python']
-      },
-      {
-        key: 'cat_database', icon: 'fa-database',
-        skills: ['MySQL', 'PostgreSQL', 'DynamoDB', 'Firebase RTDB', 'NoSQL', 'PL/SQL', 'SQL']
-      },
-      {
-        key: 'cat_cloud', icon: 'fa-cloud',
-        skills: ['AWS EC2', 'AWS S3', 'AWS Lambda', 'SQS', 'SNS', 'Route53', 'Docker', 'CI/CD']
-      },
-      {
-        key: 'cat_tools', icon: 'fa-screwdriver-wrench',
-        skills: ['Git', 'GitHub', 'Postman', 'Jira', 'VS Code', 'Tableau', 'Power BI']
-      }
-    ];
-    ============================================================ */
   }
 
   /**
@@ -100,19 +62,9 @@ export class PortfolioService {
         icon: 'fa-users-gear'
       },
       {
-        title: 'Task Tracking & SLA Management',
-        description: 'Monitoring deliverables, managing task trackers, and resolving operational blockers to maintain strict SLAs.',
-        icon: 'fa-list-check'
-      },
-      {
-        title: 'Reporting & Data Analysis',
-        description: 'Analyzing system health logs, database metrics, and tracking project milestones to deliver insightful status reports.',
-        icon: 'fa-chart-column'
-      },
-      {
-        title: 'Process & Issue Resolution',
-        description: 'Proactively identifying bottlenecks, driving root cause analysis, and implementing continuous improvement strategies.',
-        icon: 'fa-lightbulb'
+        title: 'Process Improvement & SLA Tracking',
+        description: 'Tracking SLA metrics, identifying workflow bottlenecks, and proposing actionable optimizations.',
+        icon: 'fa-chart-line'
       }
     ];
   }
@@ -228,7 +180,6 @@ export class PortfolioService {
         color:           '#8b5cf6',
         category:        'office',
         type:            'Flutter Project',
-        github:          'https://github.com/Nafi62742/Nearest-Location',
         shortRole:       'Location Proximity Finder'
       },
       {
@@ -265,7 +216,6 @@ export class PortfolioService {
         color:           '#3b82f6',
         category:        'office',
         type:            'Mobile App',
-        github:          'https://github.com/Nafi62742/Voice-record-and-player',
         shortRole:       'Offline Voice Recorder'
       },
       {
@@ -290,7 +240,6 @@ export class PortfolioService {
         color:           '#f97316',
         category:        'personal',
         type:            'Web Application',
-        github:          'https://github.com/Nafi62742/Flour_To_Pastry',
         shortRole:       'Online Bakery Storefront'
       },
       {
@@ -303,7 +252,6 @@ export class PortfolioService {
         color:           '#6366f1',
         category:        'personal',
         type:            'Web Application',
-        github:          'https://github.com/Nafi62742/Getfund',
         shortRole:       'Crowdfunding Platform'
       },
       {
@@ -329,7 +277,6 @@ export class PortfolioService {
         color:           '#8b5cf6',
         category:        'personal',
         type:            'Software Project',
-        github:          'https://github.com/Nafi62742/School-Management-System',
         shortRole:       'School Admin & Grading'
       }
     ];
@@ -376,52 +323,6 @@ export class PortfolioService {
       }
     ];
   }
-
-  /* ============================================================
-   * OLD PUBLICATIONS (Nafi Ahmed) — commented out
-   * Uncomment and replace the return block above to restore.
-   * ============================================================
-  getPublicationsOld(): Array<Publication> {
-    return [
-      {
-        title:           'Traditional Bengali Food Classification and Calorie Measurement Using Machine Learning',
-        venue:           'Journal of Scientific and Technological Research (JSTR), Bangladesh Open University (BOU) — Vol. 6, No. 1 (2024), pp. 103–113',
-        year:            '2024',
-        authors:         'Swapneel Biswas, Nafi Ahmed & Shykul Islam Siam',
-        icon:            'fa-brain',
-        color:           '#6366f1',
-        abstract:        'Applies machine learning techniques including image segmentation and object detection to classify traditional Bengali dishes and automatically estimate calorie values from visual food inputs.',
-        longDescription: 'This research addresses the challenge of automated nutritional analysis for traditional Bengali cuisine — a domain largely overlooked by existing food recognition datasets. The study applies machine learning techniques including object detection and image segmentation to classify traditional Bengali dishes from image inputs. Once classified, the system estimates caloric content using dietary reference data. The work evaluates multiple classification architectures and compares their performance on a custom Bengali food dataset. The resulting pipeline demonstrates strong potential for integration into mobile dietary tracking applications, supporting health-conscious users in culturally specific food environments. This contributes a reproducible, scalable framework for food classification in under-represented culinary traditions.',
-        keywords:        ['Machine Learning', 'Bengali Cuisine Classification', 'Content Measurement', 'Object Detection', 'Image Segmentation', 'Dietary Assessment', 'Traditional Bengali Dishes'],
-        link:            'https://doi.org/10.59738/jstr.v6i1.24(103-113).xatj1460'
-      },
-      {
-        title:           'A Deep Learning Approach to Analyze the Relationship Between Gender, Height, Weight, and Basal Metabolic Rate from Face Images',
-        venue:           '2024 IEEE International Conference on Power, Electrical, Electronics and Industrial Applications (PEEIACON) — Rajshahi, Bangladesh, 12–13 September 2024',
-        year:            '2024',
-        authors:         'Shykul Islam Siam, S. A. H. Chowdhury, Nafi Ahmed & Swapneel Biswas',
-        icon:            'fa-microchip',
-        color:           '#06b6d4',
-        abstract:        'Introduces a novel CNN model for facial attribute estimation that predicts gender, height, weight, and Basal Metabolic Rate (BMR) from face images, achieving 98.50% accuracy on the Face-ete dataset.',
-        longDescription: 'In response to existing limitations, a novel convolutional neural network (CNN) model tailored for facial attribute estimation is introduced in this study. The methodology encompasses meticulous data preprocessing techniques, including dataset splitting, resizing, cleaning, augmentation, and cropping, to ensure the integrity of the dataset. Through rigorous real-world testing, remarkable accuracy in predicting gender, height, weight, and basal metabolic rate (BMR) from facial photos is demonstrated by our CNN architecture. Notably, unlike conventional approaches where BMR is directly estimated from facial images, three output neurons are employed by our model to simultaneously predict gender, height, and weight, which are subsequently utilized for BMR calculation. A primary contribution is made through the development of a comprehensive methodology that advances the reliability of facial attribute estimation by achieving an outstanding accuracy of 98.50% on our dataset named Face-ete and a commendable accuracy of 88.29% on another dataset. Our model outperforms the second-best model by percentage relative improvement factors of 2.19 and 4.28 in terms of BMR prediction accuracy.',
-        keywords:        ['Deep Learning', 'CNN', 'Basal Metabolic Rate', 'BMR', 'Facial Attribute Estimation', 'Gender Prediction', 'Biometrics', 'Computer Vision', 'PEEIACON'],
-        link:            'https://ieeexplore.ieee.org/document/10800058'
-      },
-      {
-        title:           'Drought Forecast Using Traditional and Custom Models for Dhaka, Bangladesh',
-        venue:           'Research in Ecology — Bilingual Publishing Group, Vol. 7, Iss. 5 (December 2025)',
-        year:            '2025',
-        authors:         'Aunik Hasan Mridul, Tanumoy Bose, Swapneel Biswas, Nafi Ahmed, S. M. Hasan Kabir, Nebadeta Nath Tonney & Pooja Saha',
-        icon:            'fa-cloud-rain',
-        color:           '#10b981',
-        abstract:        'Presents a hybrid drought forecasting model combining ARMA, Holt-Winters, ARIMA, and Random Forest for Dhaka Division, Bangladesh, using SPI-based daily precipitation data spanning January 1981 to March 2025.',
-        longDescription: 'Water scarcity and climate change are two of the biggest worldwide concerns. Drought is a complicated and often underappreciated phenomenon affecting many facets of human existence.',
-        keywords:        ['Drought Forecasting', 'ARIMA', 'Holt-Winters', 'Random Forest', 'LSTM', 'SPI', 'Climate Change', 'Bangladesh', 'Hydrology', 'Precipitation'],
-        link:            'https://doi.org/10.30564/re.v7i5.10103'
-      }
-    ];
-  }
-  ============================================================ */
 
   /**
    * Looks up a single publication by its URL-safe slug.

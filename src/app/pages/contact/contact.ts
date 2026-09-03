@@ -61,7 +61,7 @@ export class ContactComponent {
 
   /** Social links shown below the contact details. */
   public readonly socials: Array<SocialItem> = [
-    { icon: 'fa-brands fa-github',   label: 'GitHub',   href: 'https://github.com'     },
+    { icon: 'fa-brands fa-github',   label: 'GitHub',   href: 'https://github.com/Farihahasann' },
     { icon: 'fa-brands fa-linkedin', label: 'LinkedIn', href: 'https://www.linkedin.com/in/fariha-hassan-b0382626a/' },
     { icon: 'fa-solid fa-envelope',  label: 'Email',    href: 'https://mail.google.com/mail/?view=cm&fs=1&to=farihahassan.214@gmail.com'     }
   ];
